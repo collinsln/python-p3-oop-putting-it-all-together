@@ -6,4 +6,7 @@ class Shoe:
         if not isinstance(size, int):
             print("size must be an integer")
             self.size = None
+        else:
+            self.size = size
+
   
